@@ -1,0 +1,31 @@
+# Core dependencies (minimal for initial testing)
+PyPDF2==3.0.1                    # PDF text extraction
+pdfplumber==0.10.0               # Advanced PDF processing
+numpy==1.24.4                    # Numerical computations
+
+# Utilities
+click==8.1.7                     # CLI interface
+python-dateutil==2.8.2          # Date handling
+
+# For creating test PDFs
+reportlab==4.0.4                 # PDF generation for testing
+
+# Enhanced NLP (lightweight models)
+scikit-learn==1.3.2              # Machine learning utilities (~15MB)
+nltk==3.8.1                      # Natural language processing (~10MB)
+sentence-transformers==2.2.2     # Sentence embeddings (~50MB base)
+transformers==4.35.2             # Transformer models (~200MB)
+huggingface_hub==0.16.4          # Compatible with sentence-transformers
+torch==2.1.1  # PyTorch CPU-compatible version
+
+# Text processing utilities
+regex==2023.10.3                 # Advanced regex patterns
+fuzzywuzzy==0.18.0              # Fuzzy string matching
+tqdm==4.66.1                     # Progress bars
+pyyaml==6.0.1                    # YAML configuration files
+
+# Optional for future enhancement
+# spacy==3.7.2                     # NLP pipeline (can add later if needed)
+# pandas==2.0.3                    # Data manipulation
+# pytest==7.4.3                   # Testing framework
+# pytest-cov==4.1.0               # Coverage reporting

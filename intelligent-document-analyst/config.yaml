@@ -1,0 +1,67 @@
+# Configuration for Intelligent Document Analyst
+
+# Model Configuration
+models:
+  # Lightweight sentence transformer for embeddings (under 1GB)
+  sentence_encoder: "all-MiniLM-L6-v2"  # ~22MB model
+  
+  # Lightweight text classification model
+  text_classifier: "distilbert-base-uncased"  # ~268MB model
+  
+  # Spacy model for NLP
+  spacy_model: "en_core_web_sm"  # ~15MB model
+
+# Processing Configuration
+processing:
+  # Maximum processing time in seconds
+  max_processing_time: 60
+  
+  # Text chunk size for processing
+  chunk_size: 1000
+  
+  # Overlap between chunks
+  chunk_overlap: 200
+  
+  # Maximum number of sections to extract per document
+  max_sections_per_doc: 10
+  
+  # Minimum section length (in characters)
+  min_section_length: 100
+
+# Section Extraction
+section_extraction:
+  # Patterns to identify section headers
+  header_patterns:
+    - r"^\d+\.\s+.*"           # "1. Introduction"
+    - r"^[A-Z][A-Z\s]+$"       # "METHODOLOGY"
+    - r"^\w+\s*\n"             # Single word headers
+    - r"^Abstract\s*$"         # Abstract section
+    - r"^Introduction\s*$"     # Introduction section
+    - r"^Conclusion\s*$"       # Conclusion section
+    - r"^References\s*$"       # References section
+  
+  # Minimum confidence score for section detection
+  min_confidence: 0.3
+
+# Relevance Ranking
+ranking:
+  # Weights for different relevance factors
+  weights:
+    semantic_similarity: 0.4
+    keyword_match: 0.3
+    section_importance: 0.2
+    position_bias: 0.1
+  
+  # Top K sections to return
+  top_k_sections: 5
+
+# Output Configuration
+output:
+  # Include confidence scores in output
+  include_confidence: true
+  
+  # Maximum length for refined text
+  max_refined_text_length: 1000
+  
+  # Date format for timestamps
+  timestamp_format: "%Y-%m-%d %H:%M:%S"
