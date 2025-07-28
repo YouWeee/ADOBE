@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Things to Do.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "processing_timestamp": "2025-07-28T18:40:01.722033"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Culinary Delights",
+      "importance_rank": 1,
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "• Monaco: Explore the Musée Océanographique and its marine exhibits, including a",
+      "importance_rank": 2,
+      "page_number": 10
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Shopping and Markets",
+      "importance_rank": 3,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Coastal Adventures",
+      "importance_rank": 4,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Outdoor Activities",
+      "importance_rank": 5,
+      "page_number": 4
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Culinary Delights  \nThe South of France is a food lover's paradise. Here are some activities to indulge in the \nregion's culinary delights:  \nWine Tas ting \n• Provence : Explore vineyards known for their rosé wines. • Languedoc : Discover diverse wines, including reds, whites, and sparkling wines. • Châteauneuf -du-Pape : Visit this famous wine region near Avignon. • Bandol : Taste the robust red wines and refreshing rosés of this coastal region. • Côtes du Rhône : Explore the vineyards along the Rhône River. • Gaillac : Discover the unique wines of this lesser -known region. • Bordeaux : Take a day trip to the world-renowned wine region and visit its prestigious \nchâteaux. Cooki ng Classes  \n• Provence : Learn to prepare traditional dishes like ratatouille and bouillabaisse. • Périgord : Join a truﬄe hunting tour followed by a cooking class. • Nice : Take a class to master Niçoise cuisine, including dishes like salade niçoise and \nsocca.",
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "• Monaco: Explore the Musée Océanographique and its marine exhibits, including a \nshark lagoon and touch tanks.  \n• Dordogne: See ancient cave paintings at prehistoric sites like Lascaux and Rouﬃgnac, and visit museums dedicated to prehistoric life. \n• Montpellier: Discover the Planet Ocea n World, an aquarium and planetarium with \ninteractive exhibits.  \n• Carcassonne: Take a guided tour of the medieval citadel and learn about its history and architecture. \n• Nîmes: Visit the Roman amphitheater and learn about ancient Roman history.  \n• Arles: Explore the Roman ruins and the Musée de l'Arles Antique, which showcases artifacts from the city's past.",
+      "page_number": 10
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Shopping and Markets  \nThe South of France is a shopper's paradise, with a variety of markets, boutiques, and artisan \nshops:  \nLocal Markets  \n• Nice : Explore the vibrant Cours Saleya Market. • Cannes : Visit Marché Forville for fresh seafood and local produce. • Avignon : Discover local products at Marché des Halles. • Aix-en-Provence : Browse the stalls at the daily market on Place Richelme. • Saint -Rémy -de-Provence : Enjoy the lively Wednesday market with local specialties. • Uzès : Visit the Saturday market for fresh produce and artisanal goods. • Sarlat : Explore the bustling market in the heart of the medieval town. Boutique Shopping  \n• Cannes: Shop along the famous Rue d'Antibes, lined with high -end boutiques, \ndesigner stores, and luxury brands. • Aix-en-Provence: Browse shops and cafes on Cours Mirabeau, an elegant boulevard \nwith a variety of st ores. • Nice: Find charming boutiques in the old town, oﬀering handmade soaps, ceramics, and local crafts.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Coastal Adventures  \nThe South of Franc e is renowned for its beautiful coastline along the Mediterranean Sea. Here \nare some activities to enjoy by the sea:  \nBeach Hopping  \n• Nice : Visit the sandy shores and enjoy the vibrant Promenade des Anglais. • Antibes: Relax on the pebbled beaches and explore t he charming old town. • Saint -Tropez : Experience the exclusive beach clubs and glamorous atmosphere. • Marseille to Cassis : Explore the stunning limestone cliﬀs and hidden coves of \nCalanques National Park. • Îles d'Hyères: Discover pristine beaches and excellen t snorkeling opportunities on \nislands like Porquerolles and Port -Cros. • Cannes : Enjoy the sandy beaches and luxury beach clubs along the Boulevard de la \nCroisette. • Menton : Visit the serene beaches and beautiful gardens in this charming town near \nthe Italian  border. Water Sports  \n• Cannes, Nice, and Saint -Tropez : Try jet skiing or parasailing for a thrill.",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Outdoor Activities  \nThe diverse landscapes of the South of France oﬀer plenty of opportunities for outdoor \nadventures:  \nHiking and Biking  \n• Verdon Gorge : Known as the \"Grand Canyon of Europe,\" oﬀering spectacular hiking \ntrails. • Luberon Regional Park : Explore picturesque villages and rolling hills, famous for \nlavender fields and vineyards. • Pyrenees National Park : Enjoy challenging hikes and stunning mountain scenery. • Mercantour Natio nal Park : Discover diverse wildlife and beautiful alpine landscapes. • Camargue : Explore the unique wetlands on horseback or by bike. • Mont Ventoux: Challenge yourself with a hike or bike ride up this iconic mountain. • Gorges du Tarn : Hike through dramatic gor ges and enjoy breathtaking views. Water Activities  \n• Ardèche River: Paddle through the stunning Ardèche Gorge. • Dordogne River : Enjoy a leisurely canoe trip, passing by medieval castles and \ncharming villages.",
+      "page_number": 4
+    }
+  ]
+}

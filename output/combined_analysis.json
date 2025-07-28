@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "processing_timestamp": "2025-07-28T18:43:27.922698"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Culinary Delights",
+      "importance_rank": 1,
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "Types of Food",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "Must -Visit Restaurants",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Restaurants",
+      "importance_rank": 4,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "Culinary Experiences",
+      "importance_rank": 5,
+      "page_number": 6
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Culinary Delights  \nThe South of France is a food lover's paradise. Here are some activities to indulge in the \nregion's culinary delights:  \nWine Tas ting \n• Provence : Explore vineyards known for their rosé wines. • Languedoc : Discover diverse wines, including reds, whites, and sparkling wines. • Châteauneuf -du-Pape : Visit this famous wine region near Avignon. • Bandol : Taste the robust red wines and refreshing rosés of this coastal region. • Côtes du Rhône : Explore the vineyards along the Rhône River. • Gaillac : Discover the unique wines of this lesser -known region. • Bordeaux : Take a day trip to the world-renowned wine region and visit its prestigious \nchâteaux. Cooki ng Classes  \n• Provence : Learn to prepare traditional dishes like ratatouille and bouillabaisse. • Périgord : Join a truﬄe hunting tour followed by a cooking class. • Nice : Take a class to master Niçoise cuisine, including dishes like salade niçoise and \nsocca.",
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "Types of Food  \nThe cuisine in the South of France is diverse, reflecting the region's rich history and cultural \ninfluences. Here are some key types of food you can expect to find:  \n• Seafood: With its extensive coastline, the Sout h of France oﬀers an abundance of fresh \nseafood. Look for dishes featuring fish, shellfish, and crustaceans, often prepared with Mediterranean herbs and olive oil. Popular seafood dishes include grilled sardines, sea bass, and mussels marinière. The regio n's proximity to the Mediterranean Sea ensures \nthat the seafood is always fresh and flavorful. • Provençal Cuisine: This style of cooking emphasizes fresh vegetables, herbs, and olive oil. Ratatouille, a vegetable stew, and bouillabaisse, a fish soup, are quintessential Provençal dishes. Provençal cuisine also includes dishes like tapenade, a spread made from olives, capers, and anchovies, and pissaladière, a savory tart topped with caramelized onions, olives, and anchovies.",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "Must -Visit Restaurants  \nTo truly exp erience the culinary delights of the South of France, here are some restaurants \nyou should consider visiting:  \n• Le Petit Nice Passedat (Marseille): A three -Michelin -starred restaurant oﬀering \nexquisite seafood dishes and stunning views of the Mediterranean. Chef Gérald \nPassedat is known for his innovative approach to seafood, creating dishes that are \nboth visually stunning and incredibly flavorful. The restaurant's location on the cliﬀs overlooking the sea adds to the overall dining experience. • La Chèvre d' Or (Èze): Located in a medieval village, this two -Michelin -starred \nrestaurant serves refined Provençal cuisine with breathtaking views of the French Riviera. The restaurant's terrace oﬀers panoramic views of the Mediterranean, making it the perfect spot f or a romantic dinner. The menu features dishes that highlight the \nregion's fresh, seasonal ingredients.",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "Restaurants  \nBudget -Friendly Restaurants  \n• Chez Pipo (Nice): Famous for its socca, a traditional Niçoise chickpea pancake, this \ncasual eatery oﬀers delicious and aﬀordable local dishes. The rustic ambiance and friendly service make it a favorite among locals and tourists alike. • La Merenda (Nice): A small, cozy restaurant serving authentic Niçoise cuisine. The menu changes with the seasons, ensuring fresh and flavorful dishes. Reservations are a must due to i ts popularity and limited seating. • Chez Etienne (Marseille): Known for its simple yet delicious pizzas and grilled meats, this family -owned restaurant is a local favorite. The lively atmosphere and hearty \nportions make it a great spot for a casual meal. • Le Bistrot du Paradou (Paradou): A charming bistro oﬀering a daily fixed menu with \nhearty Provençal dishes at reasonable prices. The warm, welcoming environment and generous servings make it a must -visit.",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "Culinary Experiences  \nIn addition to dining at top restaurants, there are several culinary experiences you should \nconsider:  \n• Cooking Classes: Many towns and cities in the South of France oﬀer cooking classes where you can learn to prepare tradi tional dishes like bouillabaisse, ratatouille, and \ntarte tropézienne. These classes are a great way to immerse yourself in the local culture and gain hands -on experience with regional recipes. Some classes even \ninclude a visit to a local market to shop for  fresh ingredients. • Food Markets: Visit local markets such as the Cours Saleya Market in Nice or the Marché Forville in Cannes to sample fresh produce, cheeses, and charcuterie. These markets are a feast for the senses, with stalls overflowing with colorfu l fruits and \nvegetables, fragrant herbs, and artisanal products. Take the time to chat with the vendors and learn about the local specialties.",
+      "page_number": 6
+    }
+  ]
+}
